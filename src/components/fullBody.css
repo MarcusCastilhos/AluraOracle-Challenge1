@@ -1,0 +1,209 @@
+.main{
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    padding: 20px 0;
+    width: 100%;
+}
+
+.text_input{
+    position: relative;
+    width: 70%;
+}
+
+.text_input textarea{
+    width: 80%;
+    height: 350px;
+    padding: 5% 0;
+    margin: 2% 10%;
+    font-size: 32px;
+    text-decoration: none;
+    color: #0A3871;
+    border: none;
+    background-color: var(--main-color);
+    outline: unset;
+    resize: none;
+}
+
+.text_input textarea::placeholder {
+    color: #0A3871;
+  }
+
+.text_input .alert_container {
+    display: flex;
+    position: relative;
+    text-align: center;
+    padding: 10px 8%;
+}
+
+.text_input .alert_container img{
+    width: 16px;
+    height: 16px;
+}
+
+.text_input .alert_container p{
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.text_input .btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.text_input input[type=button]{
+    width: 40%;
+    height: 67px;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.text_input input[type=button]:hover{
+    background-color: #0a3871b9;
+    color: white;
+}
+
+.text_input .btn_01{
+    background-color: #0A3871;
+    color: white;
+}
+
+.section2_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: -30px;
+    width: 30%;
+    height: 540px;
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+
+.section2_container .noText_container{
+    visibility: visible;
+}
+
+.section2_container img{
+    width: 60%;
+}
+
+.section2_container h1{
+    font-size: 24px;
+    margin-top: 15px;
+    color: #343A40;
+}
+
+.section2_container p{
+    font-size: 16px;
+    margin-top: 15px;
+    color: #495057;
+}
+
+.text_container{
+    width: 90%;
+}
+
+.text_scroll{
+    height: 410px;
+    overflow: auto;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #0A3871;
+    font-size: 20px;
+}
+
+.text_container input[type=button]{
+    width: 80%;
+    height: 67px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.text_container input[type=button]:hover{
+    background-color: #0a3871b9;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        margin: 0 5%;
+    }
+    .text_input{
+        width: 100%;
+    }
+    .text_input textarea{
+        width: 80%;
+        height: 300px;
+        margin: 2% 5%;
+    }
+    .text_input .btn_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 4%;
+    }
+
+    .section2_container{
+        width: 100%;
+        height: 340px;
+        margin-top: 20px;
+    }
+
+    .section2_container img {
+        display: none;
+    }
+    
+    .text_scroll{
+        height: 168px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .text_input textarea{
+        width: 95%;
+        font-size: 24px;
+        height: 200px;
+    }
+    .text_input .btn_container{
+        width: 100%;
+        display: block;
+    }
+    .text_input input[type=button]{
+        width: 100%;
+    }
+    .text_input .btn_01{
+        margin-bottom: 4%;
+    }
+
+    .section2_container{
+        height: 200px;
+    }
+
+    .text_scroll{
+        height: 100px;
+        margin-bottom: 20px;
+    }
+}

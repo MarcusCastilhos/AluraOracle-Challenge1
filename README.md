@@ -2,6 +2,20 @@
 
 Repositorio destinado ao Challenge encriptador de textos realizado pela Alura Oracle ONE.
 
+## Técnologias Utilizadas:
+* React.js
+* Javascript
+* HTML
+* CSS
+
 Veja o resultado abaixo.
 
 https://marcuscastilhos.github.io/AluraOracle-Challenge1/
+
+## Versão Desktop
+
+<img src"https://github.com/MarcusCastilhos/AluraOracle-Challenge1/blob/main/src/assets/alura-desktop.png" />
+
+## Versão Mobile
+
+<img src"https://github.com/MarcusCastilhos/AluraOracle-Challenge1/blob/main/src/assets/alura-mobile.png" />

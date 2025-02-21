@@ -14,8 +14,10 @@ https://marcuscastilhos.github.io/AluraOracle-Challenge1/
 
 ## Versão Desktop
 
-<img src"https://github.com/MarcusCastilhos/AluraOracle-Challenge1/blob/main/src/assets/alura-desktop.png" />
+
+<img alt="versão-desktop" src="https://github.com/MarcusCastilhos/AluraOracle-Challenge1/blob/main/src/assets/alura-desktop.png" />
+
 
 ## Versão Mobile
 
-<img src"https://github.com/MarcusCastilhos/AluraOracle-Challenge1/blob/main/src/assets/alura-mobile.png" />
+<img alt="versão-mobile" src="https://github.com/MarcusCastilhos/AluraOracle-Challenge1/blob/main/src/assets/alura-mobile.png" />
